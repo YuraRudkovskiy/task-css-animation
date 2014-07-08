@@ -63,15 +63,15 @@
 
 
 /*animation*/
-#first{
+#first-cube{
 	-webkit-animation: rotationX 3s infinite linear;
 }
 
-#second{
+#second-cube{
 	-webkit-animation: rotationY 5s infinite linear;
 }
 
-#third{
+#third-cube{
 	-webkit-animation: rotationZ 2s infinite linear;
 }
 
