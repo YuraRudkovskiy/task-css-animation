@@ -1,3 +1,4 @@
+/*scene*/
 .scene{
 	width: 100px;
 	height: 100px;
@@ -5,7 +6,9 @@
 	position: relative;
 	-webkit-perspective: 2000px;
 }
+/*end scene*/
 
+/*cube*/
 .cube{
 	width: 100%;
 	height: 100%;
@@ -24,11 +27,13 @@
 	/*-webkit-backface-visibility:hidden;*//*как вариант*/
 }
 
+/*caption*/
 .cube p{
 	margin: 0;
 	font-size: 5em;
 }
 
+/*sides*/
 .front{
 	-webkit-transform: rotateY(0deg) translateZ(50px);
 	background-color: lawngreen;
@@ -53,8 +58,11 @@
 	-webkit-transform: rotateX(-90deg)  translateZ(50px);
 	background-color: cyan;
 }
+/*end sides*/
+/*end cube*/
 
 
+/*animation*/
 #first{
 	-webkit-animation: rotationX 3s infinite linear;
 }
@@ -81,3 +89,4 @@
 	0% {-webkit-transform: rotate3d(0,0,1,-0deg) translateY(300px) rotate3d(1,0,1,0deg);}
 	100% {-webkit-transform: rotate3d(0,0,1,-360deg) translateY(300px) rotate3d(1,0,1,360deg);}
 }
+/*end animation*/
