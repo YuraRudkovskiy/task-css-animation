@@ -95,10 +95,10 @@
 
 @-webkit-keyframes rotationZ {
 	from {
-		-webkit-transform: rotate3d(0,0,1,-0deg) translateY(300px) rotate3d(1,0,1,0deg);
+		-webkit-transform: rotate3d(0,0,1,-0deg) translateY(300px) rotate3d(0,0,1,0deg) rotate3d(1,0,1,-12deg) rotate3d(0,1,0,0deg);
 	}
 	to {
-		-webkit-transform: rotate3d(0,0,1,-360deg) translateY(300px) rotate3d(1,0,1,360deg);
+		-webkit-transform: rotate3d(0,0,1,-360deg) translateY(300px) rotate3d(0,0,1,360deg) rotate3d(1,0,1,-12deg)  rotate3d(0,1,0,360deg);
 	}
 }
 /*end animation*/
