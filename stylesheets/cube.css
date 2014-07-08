@@ -1,0 +1,7 @@
+.scene{
+	width: 100px;
+	height: 100px;
+	margin: 300px 250px;
+	position: relative;
+	-webkit-perspective: 2000px;
+}
