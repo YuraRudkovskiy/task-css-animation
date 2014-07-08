@@ -53,3 +53,31 @@
 	-webkit-transform: rotateX(-90deg)  translateZ(50px);
 	background-color: cyan;
 }
+
+
+#first{
+	-webkit-animation: rotationX 3s infinite linear;
+}
+
+#second{
+	-webkit-animation: rotationY 5s infinite linear;
+}
+
+#third{
+	-webkit-animation: rotationZ 2s infinite linear;
+}
+
+@-webkit-keyframes rotationX {
+	0% {-webkit-transform: rotate3d(1,0,0,0deg) translateY(400px) rotate3d(1,1,0,0deg);}
+	100% {-webkit-transform: rotate3d(1,0,0,360deg) translateY(400px) rotate3d(1,1,0,360deg);}
+}
+
+@-webkit-keyframes rotationY {
+	0% {-webkit-transform: rotate3d(0,1,0,0deg) translateZ(600px) rotate3d(0,1,0,-0deg);}
+	100% {-webkit-transform: rotate3d(0,1,0,360deg) translateZ(600px) rotate3d(0,1,0,-360deg);}
+}
+
+@-webkit-keyframes rotationZ {
+	0% {-webkit-transform: rotate3d(0,0,1,-0deg) translateY(300px) rotate3d(1,0,1,0deg);}
+	100% {-webkit-transform: rotate3d(0,0,1,-360deg) translateY(300px) rotate3d(1,0,1,360deg);}
+}
