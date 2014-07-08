@@ -63,6 +63,7 @@
 
 
 /*animation*/
+
 #first-cube{
 	-webkit-animation: rotationX 3s infinite linear;
 }
@@ -75,6 +76,7 @@
 	-webkit-animation: rotationZ 2s infinite linear;
 }
 
+/*rotation*/
 @-webkit-keyframes rotationX {
 	from {
 		-webkit-transform: rotate3d(1,0,0,0deg) translateY(400px) rotate3d(1,1,0,0deg);
@@ -101,4 +103,5 @@
 		-webkit-transform: rotate3d(0,0,1,-360deg) translateY(300px) rotate3d(0,0,1,360deg) rotate3d(1,0,1,-12deg)  rotate3d(0,1,0,360deg);
 	}
 }
+/*end rotation*/
 /*end animation*/
