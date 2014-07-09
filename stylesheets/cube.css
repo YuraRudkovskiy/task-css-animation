@@ -39,7 +39,7 @@
 	background-color: lawngreen;
 }
 .back{
-	-webkit-transform: rotateX(180deg)  translateZ(50px);
+	-webkit-transform: rotateY(180deg)  translateZ(50px);
 	background-color: yellow;
 }
 .right{
